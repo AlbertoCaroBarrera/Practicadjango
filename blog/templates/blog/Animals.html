@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animales</title>
+</head>
+<body>
+    <h1>Estos son nuestros bichos</h1>
+    {% for animal in varios_animales %}
+        <article>
+            <h1>{{animal.Cuidador}}</h1>
+            <h2>{{animal.Nombre}}</h2>
+            <h3>{{animal.Tipo}}</h3>
+        </article>
+    {% endfor %}
+</body>
+</html>
